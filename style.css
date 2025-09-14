@@ -1,0 +1,108 @@
+.ibm-plex-mono-regular {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ibm-plex-mono-medium {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.charmonman-regular {
+  font-family: "Charmonman", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.charmonman-bold {
+  font-family: "Charmonman", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  display: flexbox;
+  justify-content: center;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  /* color: #000;
+  font: 12px Arial, Sans-Serif;
+  margin-left: auto;
+  margin-right: auto; */
+}
+
+.fontColor {
+  color: #e0e0e0;
+}
+
+.clickableFontColor {
+  color: #8080ff;
+}
+
+.btn-custom-grey {
+  background-color: #202020;
+  border-color: wheat;
+  color: #8080ff;
+  --bs-btn-hover-color: rgb(226, 226, 0);
+  --bs-btn-hover-bg: #2e2d28;
+  --bs-btn-hover-border-color: wheat;
+}
+
+.btn-lg {
+  --bs-btn-padding-y: 0;
+  --bs-btn-padding-x: 1rem;
+  --bs-btn-font-size: 16px;
+  --bs-btn-border-radius: var(--bs-border-radius-lg);
+}
+
+a:hover {
+  color: rgb(226, 226, 0);
+}
+
+.align-items-stretch {
+  align-items: stretch !important;
+}
+
+.my-box {
+  background-color: #e0e0e0;
+  border: 2px solid;
+  padding: 10px 10px;
+  margin: 0;
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+/*CUSTOM CODE*/
+#thaiName {
+  font-size: 25px;
+  font-weight: bold;
+  color: #ff6d4d;
+}
+
+#engName {
+  font-size: 32px;
+  line-height: 25px;
+  color: #c1ff72;
+}
+
+#name {
+  padding: 20px 20px 20px 20px;
+}
+
+#description {
+  font-size: 14px;
+  height: 45px;
+  width: 940px;
+  text-align: center;
+}
+
+#contact {
+  gap: 20px;
+}
+
+#projectName {
+  font-size: 28px;
+}
